@@ -1,0 +1,44 @@
+/* ===== HEADER ===== */
+.header {
+  width: 100%;
+  max-width: 1920px;
+  height: 139.54px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 58px;
+  background-color: #1b1b1b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Контейнер для трех элементов */
+.header__content {
+  display: flex;
+  align-items: center;
+  gap: 105px;
+  height: 100%;
+}
+
+/* ===== LOGO ===== */
+.header__logo {
+  width: 182.74px;
+  height: 31px;
+  background-color: #4eaf4e; /* Зеленый */
+}
+
+/* ===== MENU BAR ===== */
+.header__menu-bar {
+  width: 561.31px;
+  height: 28px;
+  background-color: #515151; /* Серый */
+}
+
+/* ===== BUTTON ===== */
+.header__button {
+  width: 244.54px;
+  height: 59.54px;
+  background-color: #4eaf4e; /* Зеленый */
+  border-radius: 8px;
+}

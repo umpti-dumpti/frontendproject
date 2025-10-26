@@ -1,19 +1,71 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-
-    <style media="(prefers-color-scheme: light)">
-      @import url('./src/styles/colors/light.css');
-    </style>
-    <style media="(prefers-color-scheme: dark)">
-      @import url('./src/styles/colors/dark.css');
-    </style>
+    <title>About</title>
+    <link rel="stylesheet" href="/src/index.css" />
   </head>
   <body>
+    <!-- Topbar -->
+    <div class="topbar">
+      <div class="topbar__container">
+        <div class="topbar__content">
+          <!-- Time Block -->
+          <div class="topbar__time">
+            <svg class="topbar__time-icon">
+              <use xlink:href="/src/assets/icons/topbar/time.svg"></use>
+            </svg>
+            <span class="topbar__time-text">Monday - Friday 8AM - 9PM</span>
+          </div>
+
+          <!-- Location Block -->
+          <div class="topbar__location">
+            <svg class="topbar__location-icon">
+              <use xlink:href="/src/assets/icons/topbar/location.svg"></use>
+            </svg>
+            <span class="topbar__location-text">725 Park Ave, New York</span>
+          </div>
+
+          <!-- Follow Block -->
+          <div class="topbar__follow">
+            <div class="topbar__social-icons">
+              <a href="#" class="topbar__social-icon">
+                <svg class="topbar__instagram">
+                  <use xlink:href="/src/assets/icons/topbar/instagram.svg"></use>
+                </svg>
+              </a>
+              <a href="#" class="topbar__social-icon">
+                <svg class="topbar__facebook">
+                  <use xlink:href="/src/assets/icons/topbar/facebook.svg"></use>
+                </svg>
+              </a>
+              <a href="#" class="topbar__social-icon">
+                <svg class="topbar__twitter">
+                  <use xlink:href="/src/assets/icons/topbar/twitter.svg"></use>
+                </svg>
+              </a>
+              <a href="#" class="topbar__social-icon">
+                <svg class="topbar__linkedin">
+                  <use xlink:href="/src/assets/icons/topbar/linkedin.svg"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo"></div>
+        <nav class="header__menu-bar"></nav>
+        <div class="header__button"></div>
+      </div>
+    </header>
+
     <script type="module" src="/src/index.js"></script>
   </body>
 </html>
